@@ -7,7 +7,7 @@ data.each do |key, value|
   end
 end
 
-puts names.uniq
+puts names.flatten.uniq
 
 new_hash
 end
