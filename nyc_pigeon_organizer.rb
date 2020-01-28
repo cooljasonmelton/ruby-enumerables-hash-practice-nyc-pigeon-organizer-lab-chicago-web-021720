@@ -10,7 +10,7 @@ names = all_names.flatten.uniq
 
 i = 0 
 while i < names.length do 
-  bird = name[i]
+  bird = names[i]
   new_hash[bird] = {
     :color => nil,
     :gender => nil,
