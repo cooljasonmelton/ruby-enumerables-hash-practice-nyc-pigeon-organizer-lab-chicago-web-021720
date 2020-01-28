@@ -1,12 +1,13 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
-  names = []
-  i = 0 # getting names
-  while i < data.length do
-    data[:purple]
-    i +=1 
-  end 
-  
+new_hash = {}
+
+
+
+
+
+
+
+new_hash
 end
 
 
