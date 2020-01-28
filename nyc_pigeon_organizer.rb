@@ -6,10 +6,7 @@ data.each do |key, value|
     names << v
   end
 end
-
-
-puts names
-
+names.unique!
 
 
 new_hash
