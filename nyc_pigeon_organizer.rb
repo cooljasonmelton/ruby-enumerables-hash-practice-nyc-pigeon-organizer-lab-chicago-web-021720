@@ -7,6 +7,7 @@ data.each do |key, value|
   end
 end
 names.unique!
+puts names
 
 
 new_hash
