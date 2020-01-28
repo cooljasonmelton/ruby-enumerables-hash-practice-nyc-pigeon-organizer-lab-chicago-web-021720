@@ -8,7 +8,16 @@ data.each do |key, value|
 end
 names = all_names.flatten.uniq
 
-puts names 
+i = 0 
+while i < names.length do 
+  bird = name[i]
+  new_hash[bird] = {
+    :color => nil,
+    :gender => nil,
+    :lives => nil
+  }
+  i += 1 
+end 
 
 
 new_hash
