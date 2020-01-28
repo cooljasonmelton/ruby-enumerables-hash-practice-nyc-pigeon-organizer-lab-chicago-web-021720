@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     names << memo[key][value]
     memo
   end 
-  puts pigeon_names 
+  puts names 
   hash_by_pigeon
 end
 
