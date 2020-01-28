@@ -5,11 +5,9 @@ def nyc_pigeon_organizer(data)
   
   names = []
   pigeon_names = data.reduce({}) do |memo, (key, value)|
-    names = []
     names << memo[key][value]
     memo
   end 
-  puts names 
 end
 
 
