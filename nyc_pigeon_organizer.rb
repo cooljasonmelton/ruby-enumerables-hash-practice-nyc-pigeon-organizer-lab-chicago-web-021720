@@ -4,9 +4,8 @@ def nyc_pigeon_organizer(data)
   
   
   
-  pigeon_names = data.reduce(nil) do |memo, (key, value)|
-    memo = {}
-    memo[value] = nil 
+  pigeon_names = data.reduce({}) do |memo, (key, value)|
+    memo = []
     memo
   end 
   puts pigeon_names 
