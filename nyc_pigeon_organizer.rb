@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   names = []
   i = 0 # getting names
   while i < data.length do
-    data
+    data[]
     i +=1 
   end 
   
