@@ -10,7 +10,6 @@ def nyc_pigeon_organizer(data)
     memo
   end 
   puts names 
-  hash_by_pigeon
 end
 
 
