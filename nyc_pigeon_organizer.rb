@@ -1,13 +1,12 @@
 def nyc_pigeon_organizer(data)
-  new = {}
-  
-  
-  
+  new_hash = {}
   names = []
-  pigeon_names = data.reduce({}) do |memo, (key, value)|
-    names << memo[key][value]
-    memo
+  i = 0 # getting names
+  while i < data.length do
+    data
+    i +=1 
   end 
+  
 end
 
 
