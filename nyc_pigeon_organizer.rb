@@ -1,13 +1,15 @@
 def nyc_pigeon_organizer(data)
 new_hash = {}
-names = []
+all_names = []
 data.each do |key, value|
   value.each do |k,v|
-    names << v
+    all_names << v
   end
 end
+names = all_names.flatten.uniq
 
-puts names.flatten.uniq
+
+
 
 new_hash
 end
