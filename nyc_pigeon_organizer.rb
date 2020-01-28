@@ -8,7 +8,7 @@ data.each do |key, value|
 end
 
 
-
+puts names
 
 
 
