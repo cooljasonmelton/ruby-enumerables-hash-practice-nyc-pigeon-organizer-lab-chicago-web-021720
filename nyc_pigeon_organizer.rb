@@ -3,11 +3,11 @@ def nyc_pigeon_organizer(data)
   
   
   
-  
+  names = []
   pigeon_names = data.reduce({}) do |memo, (key, value)|
     names = []
     names << memo[key][value]
-    names
+    memo
   end 
   puts pigeon_names 
   hash_by_pigeon
