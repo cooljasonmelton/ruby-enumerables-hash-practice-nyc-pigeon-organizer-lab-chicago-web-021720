@@ -1,5 +1,11 @@
 def nyc_pigeon_organizer(data)
 new_hash = {}
+names = []
+data.each do |key, value|
+  value.each do |k,v|
+    names << v
+  end
+end
 
 
 
