@@ -4,12 +4,12 @@ def nyc_pigeon_organizer(data)
   
   
   
-  hash_by_pigeon = data.reduce({}) do |memo, (key, value)|
-    
-
-    
+  pigeon_names = data.reduce(nil) do |memo, (key, value)|
+    memo = {}
+    memo[value] = nil 
+    memo
   end 
-  
+  puts pigeon_names 
   hash_by_pigeon
 end
 
