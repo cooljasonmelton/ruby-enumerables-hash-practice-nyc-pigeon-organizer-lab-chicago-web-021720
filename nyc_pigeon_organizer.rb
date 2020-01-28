@@ -19,7 +19,7 @@ while i < names.length do
   i += 1 
 end 
 
-
+puts new_hash
 new_hash
 end
 
