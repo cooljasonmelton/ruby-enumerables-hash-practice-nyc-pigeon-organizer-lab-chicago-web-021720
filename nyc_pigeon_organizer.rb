@@ -8,6 +8,7 @@ data.each do |key, value|
 end
 names = all_names.flatten.uniq
 
+
 color = []
 gender = nil 
 lives = nil 
