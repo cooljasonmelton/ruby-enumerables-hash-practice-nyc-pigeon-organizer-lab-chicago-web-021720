@@ -33,7 +33,9 @@ while i < names.length do
   if data[:color][:brown].include?(bird)
     new_hash[bird][:color] << "brown"
   end 
-  
+    if data[:color][:black].include?(bird)
+    new_hash[bird][:color] << "black"
+  end 
   
 
   
