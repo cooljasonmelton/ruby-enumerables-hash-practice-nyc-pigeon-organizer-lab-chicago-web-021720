@@ -23,6 +23,8 @@ while i < names.length do
   }
   if data[:color][:purple].include?(bird)
     new_hash[bird][:color] << "purple"
+  elsif data[:color][:purple].include?(bird)
+    new_hash[bird][:color] << "purple"
   end 
   
   
