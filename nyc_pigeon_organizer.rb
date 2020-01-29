@@ -22,7 +22,7 @@ while i < names.length do
     :lives => nil
   }
   if data[:color][:purple].include?(bird)
-    new_hash[bird][:color] << purple
+    new_hash[bird][:color] << "purple"
   end 
   
   
