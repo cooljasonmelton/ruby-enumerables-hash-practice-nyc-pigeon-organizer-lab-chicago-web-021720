@@ -10,27 +10,23 @@ end
 names = all_names.flatten.uniq
 
 
-color = []
-gender = nil 
-lives = nil 
 
 
 
 i = 0 
 while i < names.length do 
   bird = names[i]
-  data.each do |key, value|
-  value.each do |k,v|
-  
-  
-  
-  
-  
   new_hash[bird] = {
-    :color => nil,
+    :color => [],
     :gender => nil,
     :lives => nil
   }
+  if data[:color][:purple].include?
+  
+  
+  
+  
+  
   i += 1 
 end 
 
