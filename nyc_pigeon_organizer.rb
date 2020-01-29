@@ -4,6 +4,7 @@ all_names = []
 data.each do |key, value|
   value.each do |k,v|
     all_names << v
+    
   end
 end
 names = all_names.flatten.uniq
