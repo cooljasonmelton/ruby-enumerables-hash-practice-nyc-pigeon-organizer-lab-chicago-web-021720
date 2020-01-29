@@ -21,8 +21,9 @@ while i < names.length do
     :gender => nil,
     :lives => nil
   }
-  if data[:color][:purple].include?
-  
+  if data[:color][:purple].include?(bird)
+    new_hash[bird][:color] << purple
+  end 
   
   
   
