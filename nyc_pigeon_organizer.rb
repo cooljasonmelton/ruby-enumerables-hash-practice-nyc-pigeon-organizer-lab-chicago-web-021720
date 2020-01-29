@@ -19,7 +19,8 @@ lives = nil
 i = 0 
 while i < names.length do 
   bird = names[i]
-  
+  data.each do |key, value|
+  value.each do |k,v|
   
   
   
